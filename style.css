@@ -76,7 +76,7 @@ button:active {
 
 .main-container {
   height: 970px;
-  background-image: url('images/imgBackground 1.png');
+  background-image: url('./images/imgBackground 1.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
