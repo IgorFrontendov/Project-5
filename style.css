@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --interaction-color: #dd9428;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}
+
+.icon-apps {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1620px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.empty {
+  border: 2px solid var(--interaction-color);
+  background-color: #ffffff00;
+  color: var(--interaction-color);
+  border-radius: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 0 25px 0;
+  transition: background-color 0.3s;
+}
+
+.empty:hover {
+  background-color: var(--interaction-color);
+  color: black;
+}
+
+.filled {
+  border: 0;
+  background-color: var(--interaction-color);
+  color: black;
+  border-radius: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 25px 0 25px 0;
+  transition: background-color 0.3s;
+}
+
+.filled:hover {
+  background-color: #ffffff00;
+  border: 2px solid black;
+}
+
+.main-container {
+  height: 970px;
+  background-image: url('images/imgBackground 1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 120px 70px 120px;
+}
+
+.main-container .content {
+  position: relative;
+}
+
+.main-container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+
+.main-container header .menu {
+  display: flex;
+  list-style: none;
+}
+
+.main-container header .menu li {
+  margin-right: 50px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: auto;
+}
+
+.main-container header button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.main-container .title {
+  margin: 137px 0 50px 0;
+  font-family: "Playfair", serif;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 95px;
+  color: #fff;
+}
+
+.main-container .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  color: #fff;
+  margin: 0 0 70px 0;
+}
+
+.main-container .filled {
+  min-width: 335px;
+  margin-bottom: 121px;
+}
+
+.main-container .social-network .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.main-container .social-network .apps {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.main-container .social-network .icon-apps {
+  margin-right: 46px;
+}
+
+.main-container .social-network .wk {
+  margin: 0;
+}
+
+.main-container .video {
+  display: flex;
+  position: absolute;
+  top: 633px;
+  left: 410px;
+}
+
+.main-container .video .icon {
+  margin-right: 20px;
+}
+
+.main-container .video .txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #A1A8B6;
+}
+
+
+.main-container .images {
+  display: flex;
+  position: absolute;
+  top: 700px;
+  right: 0px;
+}
+
+.main-container .images .image {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 200px;
+  width: 285px;
+  padding: 25px;
+  color: #fff;
+  margin-right: 30px;
+  box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.25);
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 200px;
+  width: 285px;
+  padding: 25px;
+  color: #fff;
+  margin-right: 30px;
+  box-shadow: 6px 6px 6px rgb(0, 0, 0, 0.25);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0 0 0;
+}
+
+.arrow {
+  margin-top: 30px;
+}
+
+.number {
+  font-family: "Playfair", serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+.main-container .images .img4 {
+  margin: 0;
+}
+
+.main-container .images .image .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0 0 0;
+}
+
+.main-container .images .image .bottom .arrow {
+  margin-top: 30px;
+}
+
+.main-container .images .image .bottom .name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.main-container .images .image .number {
+  font-family: "Playfair", serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.main-container .images .img2 {
+  background-image: url('images/imgIsland 1 (1).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s linear;
+}
+
+.main-container .images .img3 {
+  background-image: url('images/imgIsland 1 (2).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s linear;
+}
+
+.main-container .images .img4 {
+  background-image: url('images/imgIsland 1 (3).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s linear;
+}
+
+.main-container .images .image:hover {
+  transform: scale(1.06);
+}
+
+.container-tours {
+  padding: 160px 0 160px 270px;
+}
+
+.container-tours .content {
+  display: flex;
+}
+
+.container-tours .img5 {
+  height: 475px;
+  width: 830px;
+  box-shadow: 0px 0px 0px #a1a8b600;
+  background-image: url('images/imgHawaii 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+.container-tours .img5 .number {
+  margin-bottom: 8px;
+}
+
+.container-tours .img5 .date {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 0px;
+}
+
+.container-tours .right-content {
+  padding: 40px 100px;
+}
+
+.container-tours .right-content .title {
+  font-family: "Playfair", serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.container-tours .right-content .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 50px 0;
+}
+
+.container-tours .right-content .empty {
+  min-width: 275px;
+}
+
+
+.container-consultation {
+  background-image: url('images/imgForm 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 518px;
+  padding: 134px 0 0 900px;
+}
+
+.container-consultation .content {
+  display: flex;
+  width: 1100px;
+}
+
+.container-consultation .title {
+  font-family: "Playfair", serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.container-consultation .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.container-consultation .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 84px;
+}
+
+.container-consultation .right .name {
+  margin-top: 20px;
+}
+
+.container-consultation .right input {
+  height: 75px;
+  width: 283px;
+  border-radius: 38px;
+  margin-bottom: 24px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33px;
+  border: 2px solid #CED8DF;
+  outline: 0;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.container-consultation .right input::placeholder {
+  color: #B7C3CC;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.container-consultation .right .filled {
+  min-width: 283px;
+}
+
+.container-consultation .right .agreement {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 9px;
+}
+
+.container-consultation .right .agreement a {
+  text-decoration: none;
+  color: var(--interaction-color);
+}
+
+.container-reviews {
+  padding: 160px 0 160px 290px
+}
+
+.container-reviews .content {
+  display: flex;
+  width: 1420px;
+}
+
+.container-reviews .left {
+  padding: 38px 100px 38px 0;
+}
+
+.container-reviews .left .title {
+  font-family: "Playfair", serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+
+.container-reviews .left .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+
+.container-reviews .left .empty {
+  width: 275px;
+}
+
+.container-reviews .img6 {
+  height: 475px;
+  width: 830px;
+  box-shadow: 0px 0px 0px #a1a8b600;
+  background-image: url('images/imgHawaii 1 (1).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+.container-reviews .img6 .number {
+  margin-bottom: 8px;
+}
+
+.container-reviews .img6 .date {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.container-reviews {
+  padding: 40px 100px;
+}
+
+.container-reviews .title {
+  font-family: "Playfair", serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 55px;
+  margin-bottom: 30px;
+}
+
+.container-reviews .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0 0 50px 0;
+}
+
+footer {
+  padding: 71px 120px;
+  background-color: #F8F8F8;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .left-content {
+  display: flex;
+  align-items: center;
+}
+
+footer .left-content .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #90A4B2;
+}
+
+footer .left-content .logo {
+  margin-right: 123px;
+}
+
+footer .left-content .text1 {
+  margin-right: 123px;
+}
+
+footer .right-content {
+  display: flex;
+  align-items: center;
+}
+
+footer .right-content .icon-apps {
+  margin-right: 40px;
+}
+
+footer .right-content .wk {
+  margin: 0;
+}
