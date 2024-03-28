@@ -10,6 +10,10 @@
   --interaction-color: #dd9428;
 }
 
+.image {
+  cursor: pointer;
+}
+
 .logo {
   cursor: pointer;
 }
